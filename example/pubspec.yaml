@@ -1,13 +1,13 @@
 name: example
-description: A project that showcases how to enable the recommended lints for Blackfoot Flutter apps.
+description: A project that showcases how to enable the recommended lints for BlackPaws Flutter apps.
 
 publish_to: none
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.8.0
 
-# Add the latest version of `package:blackfoot_flutter_lint` as a dev_dependency. The
+# Add the latest version of `package:blackpaws_flutter_lint` as a dev_dependency. The
 # lint set provided by this package is activated in the `analysis_options.yaml`
 # file located next to this `pubspec.yaml` file.
 dev_dependencies:
-  blackfoot_flutter_lint: ^2.0.0 # Check https://pub.dev/packages/blackfoot_flutter_lint for latest version number.
+  blackpaws_flutter_lint: ^6.0.0 # Check https://pub.dev/packages/blackpaws_flutter_lint for latest version number.

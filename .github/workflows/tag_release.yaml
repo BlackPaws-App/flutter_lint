@@ -60,7 +60,7 @@ jobs:
       - name: Version bump and tag
         run: |
           git config user.name Thing-leoh Nicolas
-          git config user.email nico@blackfoot.io
+          git config user.email nicolas@blackpaws.fr
           git add pubspec.yaml CHANGELOG.md
           git commit -m "Version bump v$PACKAGE_VERSION"
           git tag "v$PACKAGE_VERSION"
