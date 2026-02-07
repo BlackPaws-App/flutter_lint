@@ -1,4 +1,4 @@
-# Recommended lints for Blackfoot's Flutter apps.
+# Recommended lints for BlackPaws' Flutter apps.
 
 include: package:flutter_lints/flutter.yaml
 
@@ -13,9 +13,7 @@ linter:
     - literal_only_boolean_expressions
     - prefer_void_to_null
     - no_adjacent_strings_in_list
-    - no_wildcard_variable_uses
     - throw_in_finally
-    - unnecessary_statements
 
     # Style Rules
     - always_declare_return_types
@@ -49,7 +47,7 @@ linter:
     - prefer_null_aware_method_calls
     - prefer_single_quotes
     - public_member_api_docs
-    - require_trailing_commas # Experimental
+    - require_trailing_commas
     - sized_box_shrink_expand
     - sort_constructors_first
     - sort_unnamed_constructors_first

@@ -1,11 +1,14 @@
 name: blackpaws_flutter_lint
 description: Recommended lints for BlackPaws' Flutter apps to encourage good coding practices.
 repository: https://github.com/BlackPaws-App/flutter_lint
-version: 2.0.0
+version: 6.0.0
 homepage: https://www.blackpaws.fr
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.8.0
 
 dependencies:
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
+
+topics:
+  - lints
