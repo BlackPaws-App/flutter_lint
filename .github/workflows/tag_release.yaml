@@ -10,7 +10,7 @@ jobs:
     if: "!contains(github.event.commits[0].message, 'Version bump v')"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           ssh-key: "${{ secrets.COMMIT_KEY }}"
       - name: Read old package version
@@ -40,7 +40,7 @@ jobs:
           git push --force origin latest
       - name: Build Changelog
         id: build_changelog
-        uses: mikepenz/release-changelog-builder-action@v3
+        uses: mikepenz/release-changelog-builder-action@v6
         with:
           fromTag: v${{ steps.read-before-version.outputs.version-number }}
           toTag: latest
@@ -60,7 +60,7 @@ jobs:
       - name: Version bump and tag
         run: |
           git config user.name Thing-leoh Nicolas
-          git config user.email nico@blackfoot.io
+          git config user.email nicolas@blackpaws.fr
           git add pubspec.yaml CHANGELOG.md
           git commit -m "Version bump v$PACKAGE_VERSION"
           git tag "v$PACKAGE_VERSION"

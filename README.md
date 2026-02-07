@@ -1,6 +1,7 @@
-[![pub package](https://img.shields.io/pub/v/blackfoot_flutter_lint.svg)](https://pub.dev/packages/blackfoot_flutter_lint)
+[![pub package](https://img.shields.io/pub/v/blackpaws_flutter_lint.svg)](https://pub.dev/packages/blackpaws_flutter_lint)
 
-This package contains a recommended set of lints for [Blackfoot]'s Flutter apps to encourage good coding practices.
+This package contains a recommended set of lints for [BlackPaws]'s Flutter apps to encourage good coding practices.
+It was forked from [Blackfoot flutter lint] rules after the team was disbanded
 
 This package is built on top of [Flutter] `flutter.yaml` set of lints from
 [package:flutter_lints].
@@ -15,9 +16,9 @@ their UI. Alternatively, the analyzer can be invoked manually by running
 You can use these lints by following these instructions:
 
 1. Depend on this package as a **dev_dependency** by running
-   `flutter pub add --dev blackfoot_flutter_lint`.
+   `flutter pub add --dev blackpaws_flutter_lint`.
 2. Create an `analysis_options.yaml` file at the root of the package (alongside
-   the `pubspec.yaml` file) and `include: package:blackfoot_flutter_lint/blackfoot_flutter.yaml`
+   the `pubspec.yaml` file) and `include: package:blackpaws_flutter_lint/flutter.yaml`
    from it.
 
 Example `analysis_options.yaml` file:
@@ -32,11 +33,11 @@ Example `analysis_options.yaml` file:
 
 # The following line activates a set of recommended lints for Blackfoot's Flutter apps
 # designed to encourage good coding practices.
-include: package:blackfoot_flutter_lint/blackfoot_flutter.yaml
+include: package:blackpaws_flutter_lint/flutter.yaml
 
 linter:
   # The lint rules applied to this project can be customized in the
-  # section below to disable rules from the `package:blackfoot_flutter_lint/blackfoot_flutter.yaml`
+  # section below to disable rules from the `package:blackpaws_flutter_lint/flutter.yaml`
   # included above or to enable additional rules. A list of all available lints
   # and their documentation is published at
   # https://dart-lang.github.io/linter/lints/index.html.
@@ -53,8 +54,9 @@ linter:
 # https://dart.dev/guides/language/analysis-options
 ```
 
-[blackfoot]: https://blackfoot.io
+[blackpaws]: https://wwww.blackpaws.fr
+[blackfoot flutter lint]: https://github.com/blackfoot-makers/blackfoot_flutter_lint
 [flutter]: https://flutter.dev
-[dart analyzer]: https://dart.dev/guides/language/analysis-options
+[dart analyzer]: https://dart.dev/tools/analysis
 [dart-enabled ides]: https://dart.dev/tools#ides-and-editors
 [package:flutter_lints]: https://pub.dev/packages/flutter_lints
