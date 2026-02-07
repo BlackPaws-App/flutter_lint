@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Create github release
         uses: "marvinpinto/action-automatic-releases@v1.2.1"
         with:
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - uses: dart-lang/setup-dart@v1
       - name: Publish to pub.dev
         run: dart pub publish --force
