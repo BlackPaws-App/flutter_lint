@@ -1,20 +1,25 @@
+## 6.0.0
+
+- Feature: update flutter lint 6
+  - PR: #1
+
 ## 2.0.0
 
 - Feature: update flutter lint 3
-   - PR: #29
+  - PR: #29
 - fix: update target build version
-   - PR: #30
+  - PR: #30
 - chore: update flutter-version-number-action
-   - PR: #31
+  - PR: #31
 - fix: example package version
-   - PR: #32
+  - PR: #32
 - fix: remove package version-number
-   - PR: #33
+  - PR: #33
 
 ## 1.1.0
 
 - [FEAT] New rules for blackfoot flutter lint with flutter 3.7
-   - PR: #28
+  - PR: #28
 
 ## 1.0.8
 
