@@ -1,3 +1,10 @@
+## 6.0.1
+
+- fix: new actions for new team
+   - PR: #2
+- chore: update version
+   - PR: #3
+
 ## 6.0.0
 
 - Feature: update flutter lint 6
